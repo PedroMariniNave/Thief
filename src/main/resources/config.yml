@@ -1,0 +1,25 @@
+Settings:
+  command: thief
+  aliases: []
+  permission: thief.admin
+  permission-message: '&cVocê não possui permissão para executar esse comando!'
+  item-editor-title: 'Ladrão - Itens'
+  spawn-delay: 3600 # em segundos
+  max-time: 180 # em segundos
+  max-items: 50
+  thief-name: '&4Ladrão'
+
+Messages:
+  command-usage: '&cUso correto: /{command} spawn/items/createloc.'
+  thief-spawn:
+    - ''
+    - '&7Um ladrão está passando pelo spawn!'
+    - '&7Encontre-o e recupere os itens roubados!'
+    - ''
+  thief-despawn:
+    - ''
+    - '&7O ladrão se foi! &f{items} &7itens foram recuperados.'
+    - ''
+
+Items: ''
+Locations: []
